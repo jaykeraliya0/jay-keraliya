@@ -11,7 +11,6 @@ Welcome to my personal portfolio project! This project serves as a showcase of m
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
-- [Contact](#contact)
 
 ## Introduction
 
