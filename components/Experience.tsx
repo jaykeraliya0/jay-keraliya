@@ -22,12 +22,12 @@ const Experience = (props: Props) => {
   ];
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen pt-24">
       <section>
         <div className="bg-black text-white py-8">
           <div className="container mx-auto flex flex-col items-start lg:flex-row my-12 md:my-24">
             <div className="flex flex-col w-full sticky md:top-36 lg:w-1/3 mt-2 md:mt-12 px-8">
-              <h1 className="ml-2 text-cyan-500/50 uppercase tracking-loose text-6xl">
+              <h1 className="ml-2 text-cyan-500/50 uppercase tracking-loose text-5xl">
                 Experience
               </h1>
             </div>

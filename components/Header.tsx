@@ -2,7 +2,7 @@ import { Pacifico } from "next/font/google";
 const dancingScript = Pacifico({ subsets: ["cyrillic-ext"], weight: "400" });
 
 const Header = () => {
-  const Links = ["About", "Skills", "Projects", "Experience", "Contact"];
+  const Links = ["About", "Skills", "Projects", "Experience"];
 
   return (
     <div className="fixed w-full z-50 bg-gradient-to-b from-black via-black to-black/40 backdrop-blur-sm pt-10 space-y-5">

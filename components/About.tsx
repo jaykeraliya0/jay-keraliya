@@ -4,7 +4,7 @@ import React from "react";
 const About = () => {
   return (
     <div className="relative min-h-screen flex justify-center items-center mx-auto max-w-4xl">
-      <p className="text-xl font-semibold bg-black/20 p-12 leading-loose pr-12 text-justify md:text-left md:pr-48">
+      <p className="text-base sm:text-xl font-semibold bg-black/20 p-12 leading-loose pr-12 text-justify md:text-left md:pr-48">
         I am passionate about crafting innovative digital solutions as a
         Full-stack Web3 Developer. With a strong foundation in both frontend and
         backend technologies, coupled with expertise in blockchain development,
