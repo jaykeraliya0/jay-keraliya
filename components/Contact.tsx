@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 type Props = {};
@@ -95,7 +94,7 @@ const Contact = (props: Props) => {
         <div className="md:col-span-2 lg:col-span-4 bg-gray-950">
           <div className="flex flex-col items-center justify-center h-24">
             <p className="text-cyan-600 text-center">
-              Please be patient if I take a while to respond. I'll respond as
+              Please be patient if I take a while to respond. I&apos;ll respond as
               soon as I can.
             </p>
           </div>

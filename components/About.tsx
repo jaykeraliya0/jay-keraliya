@@ -9,7 +9,7 @@ const About = () => {
         Full-stack Web3 Developer. With a strong foundation in both frontend and
         backend technologies, coupled with expertise in blockchain development,
         I strive to create impactful and cutting-edge applications that push the
-        boundaries of what's possible.{" "}
+        boundaries of what&apos;s possible.{" "}
         <span className="text-amber-500">Yes, I love kittens too!</span>
       </p>
       <Image

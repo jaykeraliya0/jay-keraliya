@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 type Props = {
@@ -46,7 +47,7 @@ const ProjectCard = ({ projectData, odd }: Props) => {
           </div>
         </div>
         <div className="relative mt-16 h-80 lg:mt-8">
-          <img
+          <Image
             className={`absolute top-0 w-[57rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10 ${
               odd && "right-0"
             }`}
