@@ -21,10 +21,10 @@ export default function Home() {
       <section id="skills" className="h-screen snap-center">
         <Skills />
       </section>
-      <section id="projects" className="min-h-screen snap-start">
+      <section id="projects" className="min-h-screen snap-center">
         <Projects />
       </section>
-      <section id="experience" className="min-h-screen snap-start">
+      <section id="experience" className="min-h-screen snap-center">
         <Experience />
       </section>
       <section id="contact" className="h-screen snap-start">
