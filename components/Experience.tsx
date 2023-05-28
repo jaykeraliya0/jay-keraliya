@@ -9,16 +9,6 @@ const Experience = (props: Props) => {
       company: "CHARUSAT University",
       title: "Web/App Developer Intern",
     },
-    {
-      date: [new Date("2022-9-30"), new Date("2023-5-24")],
-      company: "CHARUSAT University",
-      title: "CIVF - Web Developer",
-    },
-    {
-      date: [new Date("2022-8-1"), new Date()],
-      company: "Freelancer",
-      title: "Web & Blockchain Developer",
-    },
   ];
 
   return (
