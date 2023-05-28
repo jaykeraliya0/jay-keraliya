@@ -7,8 +7,11 @@ import {
   Experience,
   Contact,
 } from "@/components";
+import data from "@/data/data.json";
 
 export default function Home() {
+  const { about, skills, projects, experience, links } = data;
+
   return (
     <div className="relative scroll-smooth w-screen overflow-x-hidden h-screen overflow-y-scroll text-white snap-y snap-mandatory scrollbar-thin scrollbar-track-black scrollbar-thumb-cyan-950">
       <Header />
@@ -16,19 +19,19 @@ export default function Home() {
         <Hero />
       </section>
       <section id="about" className="h-screen snap-center">
-        <About />
+        <About about={about} />
       </section>
       <section id="skills" className="h-screen snap-center">
-        <Skills />
+        <Skills skills={skills} />
       </section>
       <section id="projects" className="min-h-screen snap-start">
-        <Projects />
+        <Projects projects={projects} />
       </section>
       <section id="experience" className="min-h-screen snap-start">
-        <Experience />
+        <Experience experience={experience} />
       </section>
       <section id="contact" className="h-screen snap-start">
-        <Contact />
+        <Contact links={links} />
       </section>
       <div className="fixed bottom-0 right-0 z-50 p-5">
         <a

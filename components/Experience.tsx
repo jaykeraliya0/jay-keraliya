@@ -1,15 +1,17 @@
 import React from "react";
 
-type Props = {};
+type Props = {
+  experience: {
+    date: string[];
+    company: string;
+    title: string;
+  }[];
+};
 
-const Experience = (props: Props) => {
-  const experience = [
-    {
-      date: [new Date("2023-5-8"), new Date("2023-7-7")],
-      company: "CHARUSAT University",
-      title: "Web/App Developer Intern",
-    },
-  ];
+const Experience = ({ experience }: Props) => {
+  const buildDate = (date: string) => {
+    return new Date(date);
+  };
 
   return (
     <div className="min-h-screen py-24">
@@ -34,19 +36,25 @@ const Experience = (props: Props) => {
                           <div className="order-1 w-5/12"></div>
                           <div className="order-1 w-5/12 px-1 py-4 text-right">
                             <p className="mb-3 text-base text-cyan-300">
-                              {exp.date[0].toLocaleDateString("en-US", {
-                                year: "numeric",
-                                month: "long",
-                                day: "numeric",
-                              })}{" "}
+                              {buildDate(exp.date[0]).toLocaleDateString(
+                                "en-US",
+                                {
+                                  year: "numeric",
+                                  month: "long",
+                                  day: "numeric",
+                                }
+                              )}{" "}
                               -{" "}
-                              {exp.date[1] >= new Date()
+                              {buildDate(exp.date[1]) >= new Date()
                                 ? "PRESENT"
-                                : exp.date[1].toLocaleDateString("en-US", {
-                                    year: "numeric",
-                                    month: "long",
-                                    day: "numeric",
-                                  })}
+                                : buildDate(exp.date[1]).toLocaleDateString(
+                                    "en-US",
+                                    {
+                                      year: "numeric",
+                                      month: "long",
+                                      day: "numeric",
+                                    }
+                                  )}
                             </p>
                             <h4 className="mb-3 font-bold text-lg md:text-2xl">
                               {exp.company}
@@ -61,19 +69,25 @@ const Experience = (props: Props) => {
                           <div className="order-1 w-5/12"></div>
                           <div className="order-1  w-5/12 px-1 py-4 text-left">
                             <p className="mb-3 text-base text-cyan-300">
-                              {exp.date[0].toLocaleDateString("en-US", {
-                                year: "numeric",
-                                month: "long",
-                                day: "numeric",
-                              })}{" "}
+                              {buildDate(exp.date[0]).toLocaleDateString(
+                                "en-US",
+                                {
+                                  year: "numeric",
+                                  month: "long",
+                                  day: "numeric",
+                                }
+                              )}{" "}
                               -{" "}
-                              {exp.date[1] >= new Date()
+                              {buildDate(exp.date[1]) >= new Date()
                                 ? "PRESENT"
-                                : exp.date[1].toLocaleDateString("en-US", {
-                                    year: "numeric",
-                                    month: "long",
-                                    day: "numeric",
-                                  })}
+                                : buildDate(exp.date[1]).toLocaleDateString(
+                                    "en-US",
+                                    {
+                                      year: "numeric",
+                                      month: "long",
+                                      day: "numeric",
+                                    }
+                                  )}
                             </p>
                             <h4 className="mb-3 font-bold text-lg md:text-2xl">
                               {exp.company}
