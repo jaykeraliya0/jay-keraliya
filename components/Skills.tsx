@@ -1,20 +1,10 @@
 import Image from "next/image";
 
-const Skills = () => {
-  const skills = [
-    "typescript",
-    "javascript",
-    "solidity",
-    "nodejs",
-    "React",
-    "Nextjs",
-    "Expressjs",
-    "firebase",
-    "Tailwindcss",
-    "Ethersjs",
-    "MongoDB",
-  ];
+type Props = {
+  skills: string[];
+};
 
+const Skills = ({ skills }: Props) => {
   return (
     <div className="min-h-screen relative flex flex-col md:grid md:grid-cols-2">
       <div className="absolute md:relative h-1/3 md:h-full w-full -z-10">
