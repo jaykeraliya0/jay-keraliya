@@ -12,7 +12,8 @@
     "Tailwindcss",
     "Ethersjs",
     "MongoDB",
-    "Prisma"
+    "Prisma",
+    "Astro"
   ],
   "projects": [
     {
