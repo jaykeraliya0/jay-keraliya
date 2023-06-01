@@ -17,10 +17,10 @@ const Hero = () => {
           Hello, I&apos;m <span className="text-cyan-500 underline">Jay</span>{" "}
           <span className="text-cyan-700">Keraliya</span>
         </h1>
-        <h3 className="text-3xl font-bold text-gray-400 text-center">
+        <h4 className="text-3xl font-bold text-gray-400 text-center">
           Full Stack Web<span className="text-gray-500 underline">3</span>{" "}
           <span className="text-cyan-500 underline">Developer</span>
-        </h3>
+        </h4>
       </div>
     </div>
   );

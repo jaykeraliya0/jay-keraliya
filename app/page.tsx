@@ -38,6 +38,7 @@ export default function Home() {
           href="#contact"
           className="text-white text-2xl hover:text-cyan-500 transition-all duration-300"
         >
+          <span className="sr-only">Contact-us</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-8 w-8 animate-bounce"
