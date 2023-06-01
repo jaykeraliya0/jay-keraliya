@@ -1,15 +1,15 @@
 import Link from "next/link";
 
-type Props = {};
-
-const Contact = (props: Props) => {
-  const links = {
-    github: "https://github.com/jaykeraliya0",
-    linkedin: "https://www.linkedin.com/in/jay-keraliya-930326224/",
-    twitter: "https://twitter.com/KeraliyaJa35820",
-    mail: "mailto:jaykeraliya0@gmail.com",
+type Props = {
+  links: {
+    github: string;
+    linkedin: string;
+    twitter: string;
+    mail: string;
   };
+};
 
+const Contact = ({ links }: Props) => {
   return (
     <div className="min-h-screen pt-36 flex flex-col justify-end space-y-2 md:space-y-16 lg:space-y-24">
       <h1 className="ml-2 text-cyan-500/50 uppercase tracking-loose text-5xl lg:text-6xl text-center">
@@ -94,8 +94,8 @@ const Contact = (props: Props) => {
         <div className="md:col-span-2 lg:col-span-4 bg-gray-950">
           <div className="flex flex-col items-center justify-center h-24">
             <p className="text-cyan-600 text-center">
-              Please be patient if I take a while to respond. I&apos;ll respond as
-              soon as I can.
+              Please be patient if I take a while to respond. I&apos;ll respond
+              as soon as I can.
             </p>
           </div>
         </div>

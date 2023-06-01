@@ -1,0 +1,47 @@
+{
+  "about": "I am passionate about crafting innovative digital solutions as a Full-stack Web3 Developer. With a strong foundation in both frontend and backend technologies, coupled with expertise in blockchain development, I strive to create impactful and cutting-edge applications that push the boundaries of what's possible.",
+  "skills": [
+    "typescript",
+    "javascript",
+    "solidity",
+    "nodejs",
+    "React",
+    "Nextjs",
+    "Expressjs",
+    "firebase",
+    "Tailwindcss",
+    "Ethersjs",
+    "MongoDB",
+    "Prisma",
+    "Astro"
+  ],
+  "projects": [
+    {
+      "title": "Byte Bunch",
+      "description": "Byte Bunch is a versatile NFT project based on the ERC-721 standard, offering users the ability to mint, own, and trade unique digital assets.",
+      "image": "/images/projects/project1.png",
+      "demo": "https://bytebunch.jaykeraliya.tech/",
+      "source": "https://github.com/jaykeraliya0/Project-Byte-Bunch"
+    },
+    {
+      "title": "CIVF",
+      "description": "a website for the nonprofit Charusat Innovative Ventures Foundation, which aims to support aspiring entrepreneurs and innovators in creating their own startups.",
+      "image": "/images/projects/project2.png",
+      "demo": "https://civf.co.in/",
+      "source": ""
+    }
+  ],
+  "experience": [
+    {
+      "date": ["2023-5-8", "2023-7-7"],
+      "company": "CHARUSAT University",
+      "title": "Web/App Developer Intern"
+    }
+  ],
+  "links": {
+    "github": "https://github.com/jaykeraliya0",
+    "linkedin": "https://www.linkedin.com/in/jay-keraliya-930326224/",
+    "twitter": "https://twitter.com/KeraliyaJa35820",
+    "mail": "mailto:jaykeraliya0@gmail.com"
+  }
+}
