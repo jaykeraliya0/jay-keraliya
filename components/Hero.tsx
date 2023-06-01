@@ -7,6 +7,8 @@ const Hero = () => {
         src="/images/main.png"
         alt="Hero Image"
         fill
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+        priority
         className="absolute object-cover w-full h-full -z-20 bg-black transform opacity-40"
       />
 
