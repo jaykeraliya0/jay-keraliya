@@ -17,6 +17,9 @@ const Projects = ({ projects }: Props) => {
       <h1 className="pt-36 uppercase text-center left-0 text-6xl font-bold text-cyan-500/50">
         Projects
       </h1>
+      <p className="text-center text-gray-500">
+        Give Star to the repo if you like it!
+      </p>
       {projects.map((project, i) => (
         <ProjectCard
           key={project.title}
