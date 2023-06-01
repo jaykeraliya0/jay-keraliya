@@ -35,6 +35,9 @@ const Experience = ({ experience }: Props) => {
                         <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
                           <div className="order-1 w-5/12"></div>
                           <div className="order-1 w-5/12 px-1 py-4 text-right">
+                            <h4 className="mb-3 font-bold text-lg md:text-2xl">
+                              {exp.company}
+                            </h4>
                             <p className="mb-3 text-base text-cyan-300">
                               {buildDate(exp.date[0]).toLocaleDateString(
                                 "en-US",
@@ -56,9 +59,6 @@ const Experience = ({ experience }: Props) => {
                                     }
                                   )}
                             </p>
-                            <h4 className="mb-3 font-bold text-lg md:text-2xl">
-                              {exp.company}
-                            </h4>
                             <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
                               {exp.title}
                             </p>
