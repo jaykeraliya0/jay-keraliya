@@ -27,9 +27,9 @@ const Skills = ({ skills }: Props) => {
           ))}
         </div>
       </div>
-      <h1 className="absolute uppercase bottom-1 right-0 text-6xl font-bold text-cyan-500/50">
+      <h2 className="absolute uppercase bottom-1 right-0 text-6xl font-bold text-cyan-500/50">
         Skills
-      </h1>
+      </h2>
     </div>
   );
 };

@@ -12,9 +12,9 @@ type Props = {
 const Contact = ({ links }: Props) => {
   return (
     <div className="min-h-screen pt-36 flex flex-col justify-end space-y-2 md:space-y-16 lg:space-y-24">
-      <h1 className="ml-2 text-cyan-500/50 uppercase tracking-loose text-5xl lg:text-6xl text-center">
+      <h2 className="ml-2 text-cyan-500/50 uppercase tracking-loose text-5xl lg:text-6xl text-center">
         Contact Me
-      </h1>
+      </h2>
       <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
         <Link
           href={links.github}

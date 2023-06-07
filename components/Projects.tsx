@@ -14,9 +14,9 @@ type Props = {
 const Projects = ({ projects }: Props) => {
   return (
     <div className="relative min-h-screen pb-24">
-      <h1 className="pt-36 uppercase text-center left-0 text-6xl font-bold text-cyan-500/50">
+      <h2 className="pt-36 uppercase text-center left-0 text-6xl font-bold text-cyan-500/50">
         Projects
-      </h1>
+      </h2>
       <p className="text-center text-gray-500">
         Give Star to the repo if you like it!
       </p>

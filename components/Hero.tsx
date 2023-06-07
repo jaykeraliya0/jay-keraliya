@@ -14,11 +14,10 @@ const Hero = () => {
 
       <div className="absolute flex flex-col w-full justify-end items-center space-y-5 mx-auto p-8 bottom-10">
         <h1 className="text-5xl font-bold text-white text-center">
-          Hello, I&apos;m <span className="text-cyan-500 underline">Jay</span>{" "}
-          <span className="text-cyan-700">Keraliya</span>
+          Hello, I&apos;m <span className="text-cyan-500">Jay Keraliya</span>
         </h1>
         <h4 className="text-3xl font-bold text-gray-400 text-center">
-          Full Stack Web<span className="text-gray-500 underline">3</span>{" "}
+          Full Stack Web3{" "}
           <span className="text-cyan-500 underline">Developer</span>
         </h4>
       </div>

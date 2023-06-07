@@ -19,9 +19,9 @@ const About = ({ about }: Props) => {
         height={800}
         className="absolute w-full md:w-1/3 object-contain right-0 h-full -z-20 bg-black transform opacity-40"
       />
-      <h1 className="absolute uppercase bottom-1 left-0 text-6xl font-bold text-cyan-500/50">
+      <h2 className="absolute uppercase bottom-1 left-0 text-6xl font-bold text-cyan-500/50">
         About Me
-      </h1>
+      </h2>
     </div>
   );
 };
